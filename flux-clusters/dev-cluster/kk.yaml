@@ -6,7 +6,7 @@ metadata:
     app: httpd
   namespace: linux
 spec:
-  replicas: 10
+  replicas: 5
   selector:
     matchLabels:
       app: httpd
